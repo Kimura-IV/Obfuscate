@@ -1,4 +1,4 @@
-# 🛡️ Obfuscate - Obfuscador de Scripts en PHP, Python2 y Bash
+# 🛡️ Obfuscador de Scripts en PHP, Python2 y Bash
 
 **Obfuscate** es una herramienta simple y funcional diseñada para ofuscar código fuente escrito en **PHP**, **Python2** y **Bash**. Su objetivo es dificultar la lectura del código por parte de terceros, protegiendo la lógica de tus scripts frente a ingeniería inversa, análisis estático o copias no autorizadas.
 
