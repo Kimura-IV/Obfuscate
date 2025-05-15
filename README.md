@@ -18,31 +18,26 @@ Codificación base64 u otros métodos (dependiendo del lenguaje)
 Reempaque del script para que se siga ejecutando correctamente, pero sea difícil de entender
 
 🧩 Uso
-bash
-Copiar
-Editar
-python obfuscate.py ruta/del/script.py
+
+>> python obfuscate.py ruta/del/script.py
+
 El script detecta el tipo de archivo según su extensión (.php, .py, .sh) y aplica el método de ofuscación correspondiente.
 
 ✅ Ejemplo
 Entrada (original.py)
-python
-Copiar
-Editar
-print("Hola mundo")
+
+>> print("Hola mundo")
+
 Salida (obfuscated.py)
-python
-Copiar
-Editar
-exec("cHJpbnQoIkhvbGEgbXVuZG8iKQ==".decode("base64"))
+
+>> exec("cHJpbnQoIkhvbGEgbXVuZG8iKQ==".decode("base64"))
+
 📥 Instalación
 Clona este repositorio:
 
-bash
-Copiar
-Editar
-git clone https://github.com/Kimura-IV/Obfuscate.git
-cd Obfuscate
+>> git clone https://github.com/Kimura-IV/Obfuscate.git
+>> cd Obfuscate
+
 Asegúrate de tener Python 2.x instalado (solo para ejecutar este script).
 
 📌 Requisitos
