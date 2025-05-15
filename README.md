@@ -22,4 +22,38 @@ Este script toma como entrada un archivo de código fuente y lo transforma en un
 python obfuscate.py ruta/del/script.py
 ```
 
-SDFSADF
+El script detecta el tipo de archivo según su extensión (.php, .py, .sh) y aplica el método de ofuscación correspondiente.
+
+## ✅ Ejemplo
+Entrada (original.py)
+
+```
+python print("Hola mundo")
+```
+
+Salida (obfuscated.py)
+
+```
+python exec("cHJpbnQoIkhvbGEgbXVuZG8iKQ==".decode("base64"))
+```
+
+## 📥 Instalación
+
+1.- Clona este repositorio:
+
+```bash
+git clone https://github.com/Kimura-IV/Obfuscate.git
+cd Obfuscate
+```
+
+2.- Asegúrate de tener Python 2.x instalado (solo para ejecutar este script).
+
+## 📌 Requisitos
+* Python 2.x
+* Acceso al intérprete de PHP o Bash si deseas probar los scripts resultantes
+
+## ⚠️ Advertencia
+Esta herramienta no garantiza seguridad absoluta. La ofuscación solo complica la lectura del código, pero no lo hace imposible de revertir. Es útil como una capa adicional de protección.
+
+## 📄 Licencia
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
